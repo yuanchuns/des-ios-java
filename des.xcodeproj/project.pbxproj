@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0D603419E9A2D40059F5CA /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0D602E19E9A2D40059F5CA /* Base64Util.m */; };
+		8E0D603519E9A2D40059F5CA /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0D603019E9A2D40059F5CA /* GTMBase64.m */; };
+		8E0D603619E9A2D40059F5CA /* MD5Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0D603319E9A2D40059F5CA /* MD5Encryption.m */; };
 		ECE87AAE1664A60700AF74E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE87AAD1664A60700AF74E9 /* UIKit.framework */; };
 		ECE87AB01664A60700AF74E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE87AAF1664A60700AF74E9 /* Foundation.framework */; };
 		ECE87AB21664A60700AF74E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE87AB11664A60700AF74E9 /* CoreGraphics.framework */; };
@@ -34,25 +37,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E0D602D19E9A2D40059F5CA /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
+		8E0D602E19E9A2D40059F5CA /* Base64Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Util.m; sourceTree = "<group>"; };
+		8E0D602F19E9A2D40059F5CA /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		8E0D603019E9A2D40059F5CA /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		8E0D603119E9A2D40059F5CA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		8E0D603219E9A2D40059F5CA /* MD5Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encryption.h; sourceTree = "<group>"; };
+		8E0D603319E9A2D40059F5CA /* MD5Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encryption.m; sourceTree = "<group>"; };
 		ECE87AA91664A60700AF74E9 /* des.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = des.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE87AAD1664A60700AF74E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECE87AAF1664A60700AF74E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECE87AB11664A60700AF74E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ECE87AB51664A60700AF74E9 /* des-Info.plist */ = {isa = PBXFileReference; path = "des-Info.plist"; sourceTree = "<group>"; };
+		ECE87AB51664A60700AF74E9 /* des-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "des-Info.plist"; sourceTree = "<group>"; };
 		ECE87AB71664A60700AF74E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECE87AB91664A60700AF74E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ECE87ABB1664A60700AF74E9 /* des-Prefix.pch */ = {isa = PBXFileReference; path = "des-Prefix.pch"; sourceTree = "<group>"; };
-		ECE87ABC1664A60700AF74E9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECE87ABB1664A60700AF74E9 /* des-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "des-Prefix.pch"; sourceTree = "<group>"; };
+		ECE87ABC1664A60700AF74E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECE87ABD1664A60700AF74E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ECE87AC01664A60700AF74E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		ECE87AC31664A60700AF74E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		ECE87AC51664A60700AF74E9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		ECE87AC51664A60700AF74E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ECE87AC61664A60700AF74E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ECE87ACD1664A60700AF74E9 /* desTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE87ACE1664A60700AF74E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		ECE87AD61664A60700AF74E9 /* desTests-Info.plist */ = {isa = PBXFileReference; path = "desTests-Info.plist"; sourceTree = "<group>"; };
+		ECE87AD61664A60700AF74E9 /* desTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desTests-Info.plist"; sourceTree = "<group>"; };
 		ECE87AD81664A60700AF74E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ECE87ADA1664A60700AF74E9 /* desTests.h */ = {isa = PBXFileReference; path = desTests.h; sourceTree = "<group>"; };
+		ECE87ADA1664A60700AF74E9 /* desTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = desTests.h; sourceTree = "<group>"; };
 		ECE87ADB1664A60700AF74E9 /* desTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,9 +90,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E0D602C19E9A2D40059F5CA /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				8E0D602D19E9A2D40059F5CA /* Base64Util.h */,
+				8E0D602E19E9A2D40059F5CA /* Base64Util.m */,
+				8E0D602F19E9A2D40059F5CA /* GTMBase64.h */,
+				8E0D603019E9A2D40059F5CA /* GTMBase64.m */,
+				8E0D603119E9A2D40059F5CA /* GTMDefines.h */,
+				8E0D603219E9A2D40059F5CA /* MD5Encryption.h */,
+				8E0D603319E9A2D40059F5CA /* MD5Encryption.m */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
 		ECE87A9E1664A60700AF74E9 = {
 			isa = PBXGroup;
 			children = (
+				8E0D602C19E9A2D40059F5CA /* Encryption */,
 				ECE87AB31664A60700AF74E9 /* des */,
 				ECE87AD41664A60700AF74E9 /* desTests */,
 				ECE87AAC1664A60700AF74E9 /* Frameworks */,
@@ -191,7 +216,7 @@
 			name = desTests;
 			productName = desTests;
 			productReference = ECE87ACD1664A60700AF74E9 /* desTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -261,9 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0D603419E9A2D40059F5CA /* Base64Util.m in Sources */,
+				8E0D603519E9A2D40059F5CA /* GTMBase64.m in Sources */,
 				ECE87ABA1664A60700AF74E9 /* main.m in Sources */,
 				ECE87ABE1664A60700AF74E9 /* AppDelegate.m in Sources */,
 				ECE87AC71664A60700AF74E9 /* ViewController.m in Sources */,
+				8E0D603619E9A2D40059F5CA /* MD5Encryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +399,7 @@
 		ECE87AE01664A60700AF74E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "des/des-Prefix.pch";
 				INFOPLIST_FILE = "des/des-Info.plist";
@@ -382,6 +411,7 @@
 		ECE87AE11664A60700AF74E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "des/des-Prefix.pch";
 				INFOPLIST_FILE = "des/des-Info.plist";
@@ -443,6 +473,7 @@
 				ECE87AE11664A60700AF74E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECE87AE21664A60700AF74E9 /* Build configuration list for PBXNativeTarget "desTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +482,7 @@
 				ECE87AE41664A60700AF74E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
